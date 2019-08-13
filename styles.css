@@ -1,3 +1,62 @@
-#app {
-    color: blue;
+body {
+    background-color: #2e313b !important;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.nav {
+    /* background: lightgrey; */
+    padding: 25px !important;
+    color: white;
+}
+
+.tables {
+    /* border: 1px solid grey; */
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.table {
+    width: 45% !important;
+    float: left;
+    margin: 20px;
+    color: white !important;
+}
+
+tbody > tr > th {
+    color: #1094f6;
+}
+
+.brand {
+    padding: 5px 7px;
+    border-radius: 3px;
+    background-color: #249bf2;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tiptop {
+    font-size: 15px;
+}
+
+.open-btn {
+    background-color: #004975;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.arrow {
+    color: #004975;
+    display: none !important;
+}
+
+.tooltip {
+    /* background-color: rgba(0, 0, 0, 1) !important; */
+    /* padding: 5px !important; */
 }
