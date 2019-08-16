@@ -39,10 +39,6 @@ tbody > tr > th {
     font-size: 14px;
 }
 
-.tiptop {
-    font-size: 15px;
-}
-
 .open-btn {
     text-align: center;
     color: white;
@@ -66,7 +62,6 @@ tbody > tr > th {
 
 .arrow {
     color: white;
-    /* display: none !important; */
 }
 
 .arrow:before {
