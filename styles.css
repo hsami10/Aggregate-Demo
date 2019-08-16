@@ -8,12 +8,13 @@ body {
     /* background: lightgrey; */
     padding: 25px !important;
     color: white;
+    padding-top: 50px !important;
 }
 
 .tables {
     /* border: 1px solid grey; */
     margin: auto;
-    margin-top: 10px;
+    margin-top: 40px;
     width: 100%;
     overflow: hidden;
 }
@@ -43,20 +44,67 @@ tbody > tr > th {
 }
 
 .open-btn {
-    background-color: #004975;
     text-align: center;
     color: white;
     font-size: 12px;
     padding: 5px;
     text-decoration: none;
+    width: 100%;
+}
+
+.open-btn:hover {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+
+.btn-container {
+    width: 100%;
+    background-color: #004975;
+    text-align: center;
+    padding: 3px;
 }
 
 .arrow {
-    color: #004975;
-    display: none !important;
+    color: white;
+    /* display: none !important; */
 }
 
-.tooltip {
-    /* background-color: rgba(0, 0, 0, 1) !important; */
-    /* padding: 5px !important; */
+.arrow:before {
+    border-top-color: white !important;
+}
+
+.tooltip-inner {
+    max-width: 400px !important;
+    min-width: 280px !important;
+    padding: 0px !important;
+    border: 1px solid white;
+}
+
+.tooltip-table-container {
+    margin-top: 20px !important;
+}
+
+.row {
+    margin: 10px 25px !important;
+}
+
+.table-titles div {
+    font-weight: bold;
+}
+
+.row div {
+    width: 50%;
+}
+
+.row div:nth-child(1) {
+    text-align: left;
+}
+
+.row div:nth-child(2) {
+    text-align: right;
+}
+
+.moreBrands {
+    color: rgb(204, 204, 204);
+    margin-bottom: 10px;
 }
