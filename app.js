@@ -6,17 +6,12 @@ $(document).ready(function () {
 
     $('.brand').tooltip();
     // $('.special').tooltip('show');
-    // insertTableInTooltip();
 
     $('.brand')
-        // .mouseenter(event, function() {
-        //     insertTableInTooltip();
-        // })
         .mouseleave(event, function () {
             if (event.toElement.className.includes("tooltip") ||
                 event.toElement.className.includes("arrow")) {
                 $('.special').tooltip('show');
-                // insertTableInTooltip();
 
                 $('.tooltip')
                 .mouseleave(event, function () {
@@ -26,11 +21,6 @@ $(document).ready(function () {
             }
         });
 });
-
-function insertTableInTooltip() {
-    $('.tooltip.show').find('.tooltip-inner').html(tooltipTitle2);
-}
-
 
 let tooltipTemplate = `
     <div class="tooltip" role="tooltip">
